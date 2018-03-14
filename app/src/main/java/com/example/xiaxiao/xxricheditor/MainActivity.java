@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
         editorLayout.ready();
+		//实时跟新选项item的UI样式还有问题
     }
 
     private void changeBottonItems(StyleController.StyleParams styleParams) {
